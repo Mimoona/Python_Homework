@@ -1,0 +1,10 @@
+Excercises:
+
+1. Calculate how many hours you will spend learning python with ReDI
+2. Find something you need to calculate (time, money, …)
+Write the calculation using Python
+Add comments to explain what the numbers mean
+Print the result in a formatted way
+3. Print the difference between 55 and 13
+4. Print a calculation containing 5 different numbers, +, -, *, / and brackets
+
