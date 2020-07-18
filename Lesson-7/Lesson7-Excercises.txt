@@ -1,0 +1,7 @@
+Excercises:
+~~~~~~~~~~~
+1. Write a program that takes two numbers as inputs. Print the bigger number. 
+2. Write a program that takes a number from a user and tells the user if the number is even or odd.
+3. Write a program that ask a user for their name and surname and checks if they start with the same letter. Write an appropriate message to the user ('your name & surname start / don't start with the same letter').
+4. Check if the sum of the number of the characters in the name and the surname from ex. 3. is divisible by 3 without a residual. Write an appropriate message to the user.
+5. Check if both the number of letters in the name and surname are even. Write an appropriate message to the user.
