@@ -1,0 +1,13 @@
+Excercises:
+1. Create a string a = “hello world”.
+
+a) Find out what a.endswith("world") is doing. Formulate generally what
+string1.endswith(string2) is doing.
+
+b) Find out what a.startswith("world") is doing. Formulate generally
+what string1.startswith(string2) is doing.
+
+2. Create a string str1 = "I love Python"
+a) Find out what str1.lower() is doing. Formulate generally what str.lower() is doing.
+b) Find out what str1.upper() is doing. Formulate generally what str.upper() is doing.
+c) Find out what str1.swapcase() is doing. Formulate generally what str.swapcase() is doing.
