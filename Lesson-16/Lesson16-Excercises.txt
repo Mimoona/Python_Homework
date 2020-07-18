@@ -1,0 +1,24 @@
+Excercise 1: Rectangle and square
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Write a python class named Rectangle constructed by a length and width and a method which will compute the area of a rectangle. 
+Rectangle(a,b)
+2. Write a python class name Square that inherits from Rectangle. This class is constructed by length of a side. Use super in the init such that you can compute the area with the method from the Rectangle class
+Square(a) 
+
+Excercise 2: Bank account
+~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Write a BankAccount class that has two method and works like specified:
+
+>>> a = BankAccount()
+>>> b = BankAccount()
+>>> a.deposit(100)
+100
+>>> b.deposit(50)
+50
+>>> b.withdraw(10)
+40
+>>> a.withdraw(10)
+90
+
+2. Write class MinimumBalanceAccount(BankAccount)
+That has minimum balance_specified. Write a new withdraw method that doesn’t allow user to withdraw if it would set account balance to less than minimum_balance
