@@ -1,0 +1,51 @@
+Exercise 1: Fizz Buzz (again! But with a for loop)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Write a program that prints the numbers from 1 to 100. 
+If it’s a multiple of 3, it should print “Fizz”. 
+If it’s a multiple of 5, it should print “Buzz”. If it’s a multiple of 3 and 5, it should print “Fizz Buzz”.
+
+1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ...
+
+Exercise 2:
+~~~~~~~~~~
+1. Print all the multiples of 5 between 0-100 but without using the modulo (%) operator!
+Output: 5 10 15 20 ...
+2. Now print the same but starting from the highest multiple
+Output: 100 95 90 85 ... 
+
+Exercise 3:
+~~~~~~~~~~~
+Write a program that sums all the numbers in a list, without using the sum() function. Use this list for the exercise:
+numbers = [54, 23, 11, 3, 20, 7]
+The output should be 118
+
+Exercise 4:
+~~~~~~~~~~~    
+Write a program that takes a set of numbers and prints the highest number among them without using the max() function. For example:
+{2, 56, 4, 29, 7}  → 56
+
+Exercise 5: 
+~~~~~~~~~~~
+1. Create a list of that contains different types of elements: strings, integers, floats, more lists... You can use this one as example:
+['abc', 4, 3.2, [19, 1, 23], '12', 2, 2, 1.0]
+
+2. For every element on this list, check its type.
+3. If it's an integer, then calculate the power of 2 (x²) and save it to a new list.
+Output: [16, 4, 4]
+
+4. OPTIONAL: you can try to do it using list comprehension as well.
+
+Exercise 6: Scrabble score
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Ask the user to input a word
+2. Calculate the score that the word has in the Scrabble game
+
+This is the dictionary containing the points each of the different letters give:.
+score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
+         "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3,
+         "l": 1, "o": 1, "n": 1, "q": 10, "p": 3, "s": 1,
+         "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4,
+        "x": 8, "z": 10}
+
+
+
