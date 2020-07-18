@@ -1,0 +1,69 @@
+Exercise 1:
+~~~~~~~~~~~
+Write a function stats() that takes a list of numbers and prints some basic statistics. 
+Expected outcome:
+>> stats([3,11,18,20])
+basic statistics for list [3, 11, 18, 20]
+max value: 20 
+min value: 3
+length: 4
+sum: 52
+mean value: 13.0
+
+Exercise 2:
+~~~~~~~~~~~
+Write a function even_elements() that takes a list of integers and returns a list containing the even elements of the input list.
+Expected outcome:
+>> list_even = even_elements([3,4,5,6,7,11,12,13,14])
+>> print(list_even)
+[4, 6, 12, 14]
+
+Exercise 3:
+~~~~~~~~~~~
+1. Write a function list_benefits() that returns a list with the following strings:
+“More organized code”
+“More readable code”
+“Easier code re-use”
+“Allowing programmers to share and connect code together”
+
+2. Write a function build_sentence() which receives a string and returns a sentence starting with the given string and ending with the string “is a benefit of functions!”
+
+3. Copy the following function name_the_benefits_of_functions() to the same code and call it to see how the functions work together!
+def name_the_benefits_of_functions():
+    list_of_benefits = list_benefits()
+    for benefit in list_of_benefits:
+        print(build_sentence(benefit))
+
+Exercise 4:
+~~~~~~~~~~~
+Write a function prime_check() that takes an integer as input and returns True if the integer is a prime number and False if it’s not. 
+A prime p is a natural number greater than 1 that only has 1 and itself as divisors. That is, only 1 and p divide p evenly.   
+
+Exercise 5:
+~~~~~~~~~~~
+Write a function check_pal() that prints whether the input string is a palindrome or not. A palindrome is a sequence of characters which reads the same backward as forward.The check should not be case-sensitive and should ignore blanks.
+
+Expected outcome:
+>> check_pal("Barbara")
+Sorry, no palindrome!
+
+>> check_pal("Ana")
+Yes, palindrome indeed!
+
+>> check_pal("Never odd or even”)
+Yes, palindrome indeed!
+
+Exercise 6 (optional):
+~~~~~~~~~~~~~~~~~~~~~~
+A recursive function is a function that calls itself again during its execution.
+def func1(n):
+    return n * func1(n-1)
+
+Make the code above work so that the function calculates factorials of integers, e.g. 
+3! = 3 x 2 x 1
+4! = 4 x 3 x 2 x 1
+
+
+
+
+
