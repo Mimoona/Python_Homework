@@ -1,0 +1,11 @@
+Excercises:
+~~~~~~~~~~~
+1. Save the following information in variables (with meaningful names) and explain what data type they would be and why (you could explain this on a comment):
+Your name
+Your age
+The price of a breze 
+2. Correct these lines of code using type conversion. Then print the result and its data type.
+price_3_books = '5.0' * 3
+my_age = 'I am ' + 26
+total_bill = 4.45 + 3.30 + 6 + '7'
+3. Convert 2020 to all the data types we learnt and print the type for all of them.
