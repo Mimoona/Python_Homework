@@ -1,0 +1,49 @@
+Exercise 1:
+~~~~~~~~~~
+1. Create a list of 4 users: Ahmed, Yong, Sudhir, Julie
+2. Ask a user to enter her/his name
+3. Check if the name exists in the users list
+4. if the name exists, print a welcome message
+5. if the name does not exists, print a sorry message
+
+Exercise 2:
+~~~~~~~~~~
+Extend the code in Exercise 1 to handle the below case:
+
+If the input name is not in the users list, print a sorry message and ask the user to try again. 
+You should keep asking the user to retry until s/he enters a name that belongs to the list :)
+
+Hint: use while
+
+Exercise 3:
+~~~~~~~~~~~
+Extend the code in Exercise 2 to handle the below case:
+
+Now for each user, add a given password:
+e.g. 'Ahmed': 's1234' # use a data structure that you have seen in previous lessons ;)
+
+Now if the input name is correct, ask for the password.
+If the password is correct, print a welcome message
+Otherwise print a sorry message explaining that the password was wrong.
+
+Exercise 4:
+~~~~~~~~~~~
+Extend the code in Exercise 3 to handle the below case:
+
+If the user enters a wrong password, give her/him another chances.
+If after 3 times the password is wrong add the user name into a new list called "blocked_users" and tell the user that her/his account is now blocked.
+
+If the same user tries to log again, print a message that his account have been temporarily locked.
+
+Exercise 5 (Optional – Bonus exercise):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extend the code in Exercise 4 to handle the below case:
+
+If user enters a name that does not exists in the user lists, print a sorry message and ask if s/he would like to register. 
+If user enters 'y', 
+- save her/his name
+- ask user to enter a password
+(Optional: ask the user to enter it twice and only accept if first and second matches)
+
+If user enter different character than 'y', program should start the flow and ask user to enter username
+
