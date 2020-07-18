@@ -1,0 +1,19 @@
+Excercise:
+~~~~~~~~~~
+Write a program that helps users to estimate how much saving he or she can earn by the age of retirement. For that you need to know birth year, currently salary, current rent, costs for basic needs (food, internets, ...), and how much percent of the salary he or she can save per month. The following are the expected input messages:
+
+* Please enter you name: Steve
+* Please the year you were born: 1982
+* Please enter your salary (don't worry I will not share it with anyway): 2500
+* Please enter how much you pay for rent: 750
+* Please enter how much you give out per month: 450
+* Please enter how much percent of your remaining salary you want to save: 20
+* Please enter the age of retirement in your country: 65
+
+Once you receive all necessary input from the user, calculate the saving amount by the age of retirement and print a small decriptive report as following:
+
+" Thank you xxxxx for you input! Based on the data you provided, by the age of xx your saving will be xxxxx euros.
+You have xxxx years ahead to work xxx years. During these years you will be paying:
+   - xxxxxxx euro for rent in total
+   - xxxxxxx euro for basic need in total
+I hope you're satisfied with your saving :)"
