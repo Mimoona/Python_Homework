@@ -1,0 +1,31 @@
+Excercise 1:
+~~~~~~~~~~~~
+You have 500 liters of water and want to transport it in containers.
+Each container has capacity of 37 liters. Assuming they need to be full to be transported: 
+a. How many containers do you need?
+b. How much water is wasted?
+
+Excercise 2:
+~~~~~~~~~~~~
+Research how to generate a random number in Python.
+Store the number in a variable.
+Print some observations about the number.
+Finally print the number.
+
+print("Your number divided by 2 is {}".format(num/2))
+print("The difference between your number power two and the number is {num**2 - num}")
+
+Excercise 3:
+~~~~~~~~~~~~
+Try to write the quadratic formula using python:
+https://en.wikipedia.org/wiki/Quadratic_formula
+https://docs.python.org/3/library/math.html#math.sqrt
+
+a = 1
+b = -9
+c = 8
+
+1. Write the expression
+2. Calculate the two zeros (x, for both + and – in the formula, for the variable values above)
+
+
