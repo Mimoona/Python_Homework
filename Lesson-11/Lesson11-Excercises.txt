@@ -1,0 +1,39 @@
+Exercise 1:
+~~~~~~~~~~~
+1. Create an empty txt file and name it “exercise1.txt”
+2. Ask the user to write 3 lines of text
+3. Write the content to the file.
+Optional: Instead of asking the user to write 3 lines, define an exit word that the user needs to write when he is done
+
+Exercise 2:
+~~~~~~~~~~~
+1. Create the file My_File.txt and paste the content
+2. Count the lines of the file
+3. Count the times that the number 4 exists on the file
+
+Exercise 3:
+~~~~~~~~~~~
+Write a Python program to combine each line from first file with the corresponding line in second file and prints it.
+
+File1.txt		File2.txt
+I			love
+programming		in
+Python			language
+
+Exercise 4:
+~~~~~~~~~~~
+Read ﬁle shopping_bill.csv
+1. Print the items in a formatted, easy to read way
+2. Calculate and print the amount of items bought
+3. Calculate and print total amount of money spent
+4. Check the cheapest and the most expensive item, and print both values
+Note you need to ignore the ﬁrst row of the ﬁle
+
+Exercise 5:
+~~~~~~~~~~
+Read ﬁle grades.csv
+1. Read the ﬁle
+2. Create a new ﬁle students.txt, and write all the student names to it
+3. Create a new ﬁle A_students.txt and write all the names of students that got  an A
+4. Create a new ﬁle see_you_next_year.txt and write all the names of  students that were not approved
+Note you need to ignore the ﬁrst row of the ﬁle
