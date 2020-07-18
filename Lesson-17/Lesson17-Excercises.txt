@@ -1,0 +1,19 @@
+Exercise 1:
+~~~~~~~~~~~
+From a standard module, import a function to compute the square root of a number and apply it to some numbers. 
+
+Exercise 2:
+~~~~~~~~~~~
+Run the following code and describe what the parameters in the function specify.
+
+import matplotlib.pyplot as plt
+
+plt.bar(x=[3,4,5,6], height=[1,0.5,1.2,0.8], width=0.2, align='center')
+plt.show()
+
+Then, plot a horizontal (!) bar chart with equivalent characteristics. 
+
+
+Exercise 3:
+~~~~~~~~~~~
+Print 20 random integers between 1 and 10 using a loop.
