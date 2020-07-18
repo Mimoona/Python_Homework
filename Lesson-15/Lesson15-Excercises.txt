@@ -1,0 +1,42 @@
+Exercie 1:
+~~~~~~~~~~
+Find what is wrong with the below class definition and fix it:
+class Rectangle:
+    width = 0
+    height = 0
+    color = 'White'
+    def set_dimensions(new_width, new_height):
+        width = new_width
+        height = new_height
+
+Exercie 2:
+~~~~~~~~~~
+Extend the class to add new methods:
+
+1) set_color that changes the color
+2) information method that prints dimentions and color
+
+Developer using your class can create Rectange objects and use them as following:
+rec = Rectagle()
+rect.set_dimensions(5, 8)
+rec.set_color("Blue")
+rec.information() # should print "width:6, height:8, color:"Blue"
+
+Exercie 3:
+~~~~~~~~~~
+Extend the class to enable the developer set the Rectange attributes during the object declaration.
+rec = Rectagle(5, 8, "Blue")
+rec.information() # should print "width:6, height:8, color:"Blue"
+
+Exercice 4: (Warm up for the Homework :))
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1) Create a new class Teacher that inherites from class Person and contain below additional attributes:
+- class_room (similar to Student class)
+- list of students (by default empty)
+
+2) Add a method assign_student method in Teacher class that assigns an object student to a teacher. This students should be added to the teacher's list of student. 
+
+3) Add a show_students method in Teacher class that display names of student assigned to given teacher.
+
+BONUS exercices: Design new methods that assigns grade to students based. Students can display their own grade. 
+
