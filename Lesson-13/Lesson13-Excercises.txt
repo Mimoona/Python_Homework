@@ -1,0 +1,14 @@
+Finish the program with a message to the user that depends on the outcome of the game. E.g. if the user won, congratulate; if the user lost - offer a re-match. Hint: write a conditional statement to check the outcome.
+
+Extra exercise 1:
+~~~~~~~~~~~~~~~~~
+Write a function check_input(letter) that checks if the users input was only one letter and returns True or False. Write and extra nested loop that asks user to input a new, correct letter until the ouptup of check_input(letter) is True.
+
+Extra exercise 2:
+~~~~~~~~~~~~~~~~~
+A forgetful user inputs the same letter several times. Make sure that if the letter has already been checked, you don't use it again and ask the user to input another letter. Hint: use an extra variable to store letters that already appeared. Modify the loop from exercise above to check another condition.
+
+Extra exercise 3:
+~~~~~~~~~~~~~~~~
+Restructure the program such that it doesn't need to be run anew to play a re-match. E.g. add an extra question at the end of the game asking if the user wants a re-match. If the user answers 'yes' or 'y', the program automatically start another round: draw a new word, set the errors count to zero etc.
+# The program will stop once the user says they don't want to play a new game (the user enters 'no' or 'n').
